@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: lightblue;
+   
+}
+
+html{
+    height: 100vh;
+}
+
+.header{
+    background-color: #091540;
+}
+
+.header__page-tittle{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    text-align: center;
+}
+
+.git-commands{
+    margin: 24px;
+    display: grid;
+    gap: 16px;
+    grid-template: repeat(6, 1fr) / 1fr 3fr ;
+
+}
+.git-commands__command{
+    background-color: #3d518c;
+    padding: 16px;
+    font-size: 2rem;
+}
+.git-commands__effect{
+    background-color: #7692ff;
+    padding: 16px;
+    font-size: 2rem;
+}
